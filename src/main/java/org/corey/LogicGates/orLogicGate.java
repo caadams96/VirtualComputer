@@ -27,5 +27,4 @@ public class orLogicGate {
     public int getOutput(){
         return output;
     }
-
 }

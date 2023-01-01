@@ -20,7 +20,6 @@ public class andLogicGate {
     }
     public void calculate(){
         output = a & b;
-
     }
     public int getOutput(){
         return output;

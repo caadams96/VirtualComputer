@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b543991d-4b6b-4cb8-a167-48fc93fb5830" name="Changes" comment="">
+    <list default="true" id="b543991d-4b6b-4cb8-a167-48fc93fb5830" name="Changes" comment="added some stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/corey/Circuits/oneBitALU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/corey/Circuits/oneBitALU.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/corey/LogicGates/andLogicGate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/corey/LogicGates/andLogicGate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/corey/LogicGates/inverterLogicGate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/corey/LogicGates/inverterLogicGate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/corey/LogicGates/orLogicGate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/corey/LogicGates/orLogicGate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/corey/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/corey/Main.java" afterDir="false" />
     </list>
@@ -67,8 +65,16 @@
       <option name="presentableId" value="Default" />
       <updated>1672373008288</updated>
       <workItem from="1672373009398" duration="1000" />
-      <workItem from="1672373805279" duration="50661000" />
+      <workItem from="1672373805279" duration="55710000" />
     </task>
+    <task id="LOCAL-00001" summary="added some stuff">
+      <created>1672550779672</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672550779672</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +90,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added some stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some stuff" />
   </component>
 </project>

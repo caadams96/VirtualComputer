@@ -7,29 +7,18 @@ import java.util.Arrays;
 public class Main {
 
 
-
-
-
     public static void run(oneBitALU alu,int[] b0,int[] b1, int opCode, int binvert){
        ArrayList<Integer> results = new ArrayList<>();
-
         int j = 0;
-
         if(binvert == 1){
             alu.setCarryIn(1);
         }
 
-        /**CARRY IN
-         * ******************/
-
-        //////////////////////
 
         for(int i = 31; i>=0; --i){
             alu.setInput(b0[i],b1[i],alu.getCarryIn());
-            /**BINVERT
-             * ******************/
+
             alu.setBinvert(binvert);
-            /////////////////////////
 
             alu.setOperation(opCode);
 
@@ -51,26 +40,21 @@ public static void add(oneBitALU alu, int[] b0, int[] b1){
 
     }
     public static void main(String[] args) {
+
+
         oneBitALU alu = new oneBitALU();
         //int[] b0 = {1,1,1,1 ,1,1,1,1, 1,1,1,1, 1,1,1,1,  1,1,1,1, 1,1,1,1,  1,1,1,1,  1,1,1,0};
 //        int[] b0 = {0,0,0,0 ,0,0,0,0, 0,0,0,0, 0,0,0,0,  0,0,0,0, 0,0,0,1,  0,0,0,0,  0,0,0,0};
 //        int[] b1 = {0,0,0,0 ,0,0,0,0, 0,0,0,0, 0,0,0,0,  0,0,0,0, 0,0,1,0,  1,1,0,0,  0,1,0,1};
 
 
-        int[] b0 = {0,0,0,0 ,0,0,0,0, 0,0,0,0, 0,0,0,0,  0,0,0,0, 0,0,0,0,  0,0,0,0,  0,0,1,1};
-        int[] b1 = {0,0,0,0 ,0,0,0,0, 0,0,0,0, 0,0,0,0,  0,0,0,0, 0,0,0,0,  0,0,0,0,  1,0,0,0};
+        int[] b0 = {0,0,0,0 ,0,0,0,0, 0,0,0,0, 0,0,0,0,  0,0,0,0, 0,0,0,0,  0,0,0,0,  1,0,1,0};
+        int[] b1 = {0,0,0,0 ,0,0,0,0, 0,0,0,0, 0,0,0,0,  0,0,0,0, 0,0,0,0,  0,0,0,0,  0,0,0,1};
         //run(alu,b0,b1,2,1);
         add(alu,b0,b1);
         System.out.println("");
         subtract(alu,b0,b1);
-
         System.out.println("");
-
-
-
-
-
-
     }
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
