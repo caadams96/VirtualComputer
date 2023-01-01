@@ -19,8 +19,7 @@ public class orLogicGate {
         calculate();
     }
     public void calculate(){
-
-        output = a + b;
+        output = a | b;
         if(output>1){
             output = 1;
         }

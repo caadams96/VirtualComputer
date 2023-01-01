@@ -1,33 +1,35 @@
 package org.corey.Circuits;
 import  org.corey.LogicGates.*;
 public class oneBitALU {
-
-
     private int a,b;
-    private int carryIn = 0;
+    private int carryIn;
    private int operation,result;
    private  int carryOut;
-
     andLogicGate AG_0 = new andLogicGate();
     orLogicGate OG_0 = new orLogicGate();
-
+    inverterLogicGate INV_0 = new inverterLogicGate();
     fullAdder ADDER_0 = new fullAdder();
-
     public void setInput(int a, int b, int carryIn){
         this.a = a;
         this.b = b;
         this.carryIn = carryIn;
     }
-    public void setOperation(int operation) {
-        this.operation = operation;
-    }
 
     public void setCarryIn(int carryIn) {
         this.carryIn = carryIn;
     }
+    public void setBinvert(int operation){
+        switch (operation){
+            case 0 ->{}
+            case 1 ->{
 
-    public void MULTIPLEXOR(int operation){
+               INV_0.setInput(b);
+              b = INV_0.getOutput();
+            }
+        }
+    }
 
+    public void setOperation(int operation){
         switch (operation) {
             case 0 -> {
                 AG_0.setInput(a, b);
@@ -46,7 +48,6 @@ public class oneBitALU {
         }
     }
     public int getResult() {
-
         return result;
     }
 
@@ -56,5 +57,13 @@ public class oneBitALU {
 
     public int getCarryIn() {
         return carryIn;
+    }
+
+    public int getA() {
+        return a;
+    }
+
+    public int getB() {
+        return b;
     }
 }

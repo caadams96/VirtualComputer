@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b543991d-4b6b-4cb8-a167-48fc93fb5830" name="Changes" comment="" />
+    <list default="true" id="b543991d-4b6b-4cb8-a167-48fc93fb5830" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/corey/Circuits/oneBitALU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/corey/Circuits/oneBitALU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/corey/LogicGates/andLogicGate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/corey/LogicGates/andLogicGate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/corey/LogicGates/inverterLogicGate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/corey/LogicGates/inverterLogicGate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/corey/LogicGates/orLogicGate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/corey/LogicGates/orLogicGate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/corey/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/corey/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -28,9 +38,26 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -40,7 +67,22 @@
       <option name="presentableId" value="Default" />
       <updated>1672373008288</updated>
       <workItem from="1672373009398" duration="1000" />
+      <workItem from="1672373805279" duration="50661000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
